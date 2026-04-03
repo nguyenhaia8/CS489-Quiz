@@ -20,9 +20,27 @@ public class Contact {
         this.emailAddresses = emailAddresses;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
     public String getLastName() {
         return lastName;
     }
 
-    // getters (generate in IDE)
+    public String getCompany() {
+        return company;
+    }
+
+    public String getJobTitle() {
+        return jobTitle;
+    }
+
+    public List<PhoneNumber> getPhoneNumbers() {
+        return phoneNumbers;
+    }
+
+    public List<EmailAddress> getEmailAddresses() {
+        return emailAddresses;
+    }
 }

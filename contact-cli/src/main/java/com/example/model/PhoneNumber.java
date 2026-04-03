@@ -9,5 +9,11 @@ public class PhoneNumber {
         this.label = label;
     }
 
-    // getters
+    public String getNumber() {
+        return number;
+    }
+
+    public String getLabel() {
+        return label;
+    }
 }

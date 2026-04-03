@@ -9,5 +9,11 @@ public class EmailAddress {
         this.label = label;
     }
 
-    // getters
+    public String getEmail() {
+        return email;
+    }
+
+    public String getLabel() {
+        return label;
+    }
 }
